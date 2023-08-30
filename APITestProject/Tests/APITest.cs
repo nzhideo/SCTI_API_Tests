@@ -33,7 +33,7 @@ namespace APITestProject.Tests
             // You can also parse the response content as JSON if needed:
             // Deserialize the API response into YourResponseType
             var content = response.Content ?? string.Empty; // Ensure content is not null
-            var jsonResponse = JsonConvert.DeserializeObject<YourResponseType>(content);
+            var jsonResponse = JsonConvert.DeserializeObject<ResponseType>(content);
             if (jsonResponse != null)
             { 
 

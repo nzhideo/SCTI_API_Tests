@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace APITestProject
 {
-    public class YourResponseType
+    public class ResponseType
     {
         [JsonProperty("Name")]
         public string? Name { get; set; }
