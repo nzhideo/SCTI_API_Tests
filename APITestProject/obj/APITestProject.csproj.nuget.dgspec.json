@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SCTI_API_Tests\\apitestproject\\APITestProject.csproj": {}
+    "C:\\SCTI_API_Tests\\APITestProject\\APITestProject.csproj": {}
   },
   "projects": {
-    "C:\\SCTI_API_Tests\\apitestproject\\APITestProject.csproj": {
+    "C:\\SCTI_API_Tests\\APITestProject\\APITestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SCTI_API_Tests\\apitestproject\\APITestProject.csproj",
+        "projectUniqueName": "C:\\SCTI_API_Tests\\APITestProject\\APITestProject.csproj",
         "projectName": "APITestProject",
-        "projectPath": "C:\\SCTI_API_Tests\\apitestproject\\APITestProject.csproj",
+        "projectPath": "C:\\SCTI_API_Tests\\APITestProject\\APITestProject.csproj",
         "packagesPath": "C:\\Users\\64210\\.nuget\\packages\\",
-        "outputPath": "C:\\SCTI_API_Tests\\apitestproject\\obj\\",
+        "outputPath": "C:\\SCTI_API_Tests\\APITestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\64210\\AppData\\Roaming\\NuGet\\NuGet.Config"

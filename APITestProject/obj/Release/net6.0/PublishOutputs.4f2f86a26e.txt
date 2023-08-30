@@ -1,0 +1,15 @@
+C:\SCTI_API_Tests\apitestproject\publish\NUnit3.TestAdapter.dll
+C:\SCTI_API_Tests\apitestproject\publish\NUnit3.TestAdapter.pdb
+C:\SCTI_API_Tests\apitestproject\publish\nunit.engine.dll
+C:\SCTI_API_Tests\apitestproject\publish\nunit.engine.api.dll
+C:\SCTI_API_Tests\apitestproject\publish\nunit.engine.core.dll
+C:\SCTI_API_Tests\apitestproject\publish\testcentric.engine.metadata.dll
+C:\SCTI_API_Tests\apitestproject\publish\APITestProject.dll
+C:\SCTI_API_Tests\apitestproject\publish\APITestProject.deps.json
+C:\SCTI_API_Tests\apitestproject\publish\APITestProject.pdb
+C:\SCTI_API_Tests\apitestproject\publish\Newtonsoft.Json.dll
+C:\SCTI_API_Tests\apitestproject\publish\nunit.framework.dll
+C:\SCTI_API_Tests\apitestproject\publish\RestSharp.dll
+C:\SCTI_API_Tests\apitestproject\publish\System.Text.Encodings.Web.dll
+C:\SCTI_API_Tests\apitestproject\publish\System.Text.Json.dll
+C:\SCTI_API_Tests\apitestproject\publish\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
