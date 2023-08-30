@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OQqJrF/OgqpNyUr4x1oUcwjLgzTEPZoiEz5SnlbBFPNE8arsvhuS5fe+o8ZS7Z5uet5mgjY5ad0L/mkfM9ovsA==",
+  "dgSpecHash": "Idz7xRIVDPNX657m1pcSF0mhg2v7c+xKboQ5tPEOOQE8JSj/n3L8TA9Bc0eAsXeBEJ1F0QcNDEdv8DV2o7oZxw==",
   "success": true,
-  "projectFilePath": "C:\\SCTI_API_Tests\\APITestProject\\APITestProject.csproj",
+  "projectFilePath": "C:\\SCTI_API_Tests\\apitestproject\\APITestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\64210\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\64210\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
