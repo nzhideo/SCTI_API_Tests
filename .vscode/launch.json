@@ -1,0 +1,54 @@
+// {
+//     // Use IntelliSense to learn about possible attributes.
+//     // Hover to view descriptions of existing attributes.
+//     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "name": ".NET Core Launch (console)",
+//             "type": "coreclr",
+//             "request": "launch",
+//             "preLaunchTask": "build",
+//             "program": "${workspaceFolder}/APITestProject/bin/Debug/net6.0/APITestProject.dll",
+//             "args": [],
+//             "cwd": "${workspaceFolder}/APITestProject",
+//             "console": "internalConsole",
+//             "stopAtEntry": false
+//         },
+//         {
+//             "name": ".NET Core Attach",
+//             "type": "coreclr",
+//             "request": "attach"
+//         }
+//     ]
+// }
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/APITestProject/bin/Debug/net6.0/APITestProject.dll",
+            "args": [
+                "test",
+                "APITestProject.dll",
+                "--filter",
+                "FullyQualifiedName=Tests.APITest"
+            ],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "DOTNET_ROOT": "${env:DOTNET_ROOT}"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        }
+    ]
+}
