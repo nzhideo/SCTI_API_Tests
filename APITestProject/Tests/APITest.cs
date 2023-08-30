@@ -15,7 +15,7 @@ namespace APITestProject.Tests
         }
 
         [Test]
-        public void YourTestMethod()
+        public void TestMethod()
         {
             
             var request = new RestRequest("/Categories/6327/Details.json?catalogue=false", Method.Get);
