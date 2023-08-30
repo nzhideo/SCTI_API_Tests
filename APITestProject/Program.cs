@@ -8,10 +8,8 @@ namespace MyConsoleApp
         static void Main(string[] args)
         {
             // Specify the path to the NUnit Console Runner executable
-            string nunitConsoleRunner = "nunit3-console.exe"; // Windows
-            // string nunitConsoleRunner = "nunit3-console"; // Linux or macOS
+            string nunitConsoleRunner = "nunit3-console.exe";
 
-            // Specify the path to your test assembly (DLL)
             string testAssemblyPath = "C:/SCTI_API_Tests/APITestProject/bin/Debug/net6.0/APITestProject.dll";
 
             // Create a ProcessStartInfo to run the NUnit Console Runner

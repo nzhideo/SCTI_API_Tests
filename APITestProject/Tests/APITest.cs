@@ -17,21 +17,21 @@ namespace APITestProject.Tests
         [Test]
         public void YourTestMethod()
         {
-            // Example usage of client in a test method
+            
             var request = new RestRequest("/Categories/6327/Details.json?catalogue=false", Method.Get);
             
-            // You can further customize the request as needed
+            // can further customize the request as needed
             // request.AddHeader("Authorization", "Bearer YourAccessToken");
             // request.AddParameter("parameterName", "parameterValue");
 
             var response = client.Execute(request);
 
-            // Your assertions and test logic here
-            // For example, you can assert the response status code:
+            // assertions and test logic here
+            // assert the response status code:
             Assert.AreEqual(System.Net.HttpStatusCode.OK, response.StatusCode);
 
-            // You can also parse the response content as JSON if needed:
-            // Deserialize the API response into YourResponseType
+            // parse the response content as JSON if needed:
+            // Deserialize the API response into ResponseType
             var content = response.Content ?? string.Empty; // Ensure content is not null
             var jsonResponse = JsonConvert.DeserializeObject<ResponseType>(content);
             if (jsonResponse != null)
